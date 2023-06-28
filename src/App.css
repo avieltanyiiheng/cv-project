@@ -1,0 +1,50 @@
+.GeneralInfo {
+  justify-content: center;
+  /* align-items: center; */
+  gap: 8px;
+  display: grid;
+}
+.App {
+  display: flex;
+  justify-content: center;
+}
+
+:root {
+  background-color: rgb(108, 173, 3);
+  margin: 0px;
+  padding: 0px;
+}
+/* 
+.Input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+.resume {
+  width: 21cm;
+  background-color: antiquewhite;
+  margin: 0px;
+  display: grid;
+  padding: 8px;
+}
+
+.name {
+  display: flex;
+  gap: 8px;
+}
+
+.first,
+.last {
+  margin: 0px;
+}
+
+.initialForm {
+  background-color: rgb(196, 135, 61);
+  border-radius: 9px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  gap: 8px;
+  padding: 8px;
+}
